@@ -1,0 +1,17 @@
+<html>
+
+
+
+<body>
+
+<button type="button" onclick="alert('there are no vochers are available currently')">Offers</button>
+</body>
+
+
+
+
+
+
+
+
+</html>

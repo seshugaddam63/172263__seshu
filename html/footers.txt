@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>footer</title>
+</head>
+<body>
+
+<a href="https://www.facebook.com/"/>
+<img src="C:\nagarjuna\fb.png" width="30" height="30" alt="fb">&nbsp &nbsp &nbsp &nbsp
+<a href="https://www.twitter.com/html/"/>
+<img src="C:\nagarjuna\twit.png" width="30" height="30" alt="twit">&nbsp &nbsp &nbsp &nbsp 
+<a href="https://www.linkedin.com/html/"/>
+<img src="C:\nagarjuna\lnk.png" width="30" height="30" alt="lnk">&nbsp &nbsp &nbsp &nbsp
+<a href="https://www.google+.com/html/"/>
+<img src="C:\nagarjuna\g+.png" width="30" height="30" alt="g+">&nbsp &nbsp &nbsp &nbsp
+<a href="https://www.youtube.com/html/"/>
+<img src="C:\nagarjuna\you.jfif" width="30" height="30" alt="you">
+<div class="foot"> 2019 © All rights reserved: Cinephilia</div>
+</body>
+</html>'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
