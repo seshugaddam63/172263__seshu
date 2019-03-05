@@ -1,0 +1,58 @@
+<div class="creditCardForm">
+    <div class="heading">
+        <h1>Confirm Purchase</h1>
+    </div>
+    <div class="payment">
+        <form>
+            <div class="form-group owner">
+                <label for="owner">Owner</label>
+                <input type="text" class="form-control" id="owner">
+            </div>
+            <div class="form-group CVV">
+                <label for="cvv">CVV</label>
+                <input type="text" class="form-control" id="cvv">
+            </div>
+            <div class="form-group" id="card-number-field">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" class="form-control" id="cardNumber">
+            </div>
+            <div class="form-group" id="expiration-date">
+                <label>Expiration Date</label>
+                <select>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select>
+                    <option value="16"> 2016</option>
+                    <option value="17"> 2017</option>
+                    <option value="18"> 2018</option>
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option value="21"> 2021</option>
+                </select>
+            </div>
+            <div class="form-group" id="credit_cards">
+                <img src="data:image/jpeg;base64,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"  id="visa">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRcroTgXWXx6NYr8j7I3n0KnvWxRh7PFtJwi5c0vqQy1lDdi8Xw" id="mastercard">
+                <img src="assets/images/amex.jpg" id="amex">
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+                <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+            </div>
+        </form>
+    </div>
+</div>

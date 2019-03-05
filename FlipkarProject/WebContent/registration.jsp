@@ -78,15 +78,15 @@ a {
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
     
-    <label for="username"><b>username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="Username"><b>username</b></label>
+    <input type="text" placeholder="Enter Username" name="Username" required>
     
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="Password"><b>Password</b></label>
+    <input type="Password" placeholder="Enter Password" name="Password" required>
 
      <label for="psw-repeat"><b>Repeat Password</b></label> 
-     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+     <input type="Password" placeholder="Repeat Password" name="psw-repeat" required>
     <hr>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 

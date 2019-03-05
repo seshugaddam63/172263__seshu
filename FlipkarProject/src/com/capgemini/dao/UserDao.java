@@ -10,15 +10,19 @@ import com.capgemini.connectionSupport.DataBaseConnection;
 
 public class UserDao {
 	
-	public int insert(String Email,String username, String rpassword,String repeatpassword) throws SQLException 
+	public int insert(String Email,String Username, String rpassword,String repeatpassword) throws SQLException 
 	{
 		
-		String query = "insert into flogin values(?,?,?,?)";
+		String query = "insert into login values(?,?,?,?)";
 		Connection con =DataBaseConnection.getConnection();
 		PreparedStatement pst =   con.prepareStatement(query);
-	
+		/*
+		 * pst.setString(1, Email); pst.setString(2, Username); pst.setString(3,
+		 * rpassword); pst.setString(4, repeatpassword); int output =
+		 * pst.executeUpdate(); return output;
+		 */
 		pst.setString(1, Email);
-		pst.setString(2, username);
+		pst.setString(2, Username);
 		pst.setString(3, rpassword);
 		pst.setString(4, repeatpassword);
 	    int output = pst.executeUpdate();

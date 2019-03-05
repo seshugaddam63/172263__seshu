@@ -1,5 +1,5 @@
 package com.capgemini.servlet;
-
+//import com.capgemini.dao.UserDaoLogin;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -43,14 +43,15 @@ public class Loginservlet extends HttpServlet {
 		doGet(request, response);
 		response.setContentType("text/html");  
 	    PrintWriter out = response.getWriter();  
-	    String n=request.getParameter("username");  
-	    String p=request.getParameter("Password");  
-	    if(UserDaoLogin.validate(n, p)){  
-	      response.sendRedirect("index.html");
+	    String username=request.getParameter("username");  
+	    String password=request.getParameter("password");  
+	    UserDaoLogin UDL=new UserDaoLogin();
+	    if(UDL.validate(username, password)){  
+	      response.sendRedirect("payment.html");
 	    }  
 	    else{  
 	        
-	      response.sendRedirect("login.html");
+	      response.sendRedirect("registration.jsp");
 	    }  
 	          
 	   

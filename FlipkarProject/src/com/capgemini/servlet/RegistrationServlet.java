@@ -37,8 +37,8 @@ public class RegistrationServlet extends HttpServlet {
 		// doGet(request, response);
 		response.setContentType("text/html");
 		String email = request.getParameter("email");
-		String username = request.getParameter("username");
-		String password = request.getParameter("psw");
+		String username = request.getParameter("Username");
+		String password = request.getParameter("Password");
 		String repeatpassword = request.getParameter("psw-repeat");
 		
 		System.out.println(email+" "+username+" "+password+" "+repeatpassword);
