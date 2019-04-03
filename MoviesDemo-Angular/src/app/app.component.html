@@ -1,0 +1,29 @@
+<style>
+#abc
+  {
+    background-color:slategray;
+  }
+</style>
+  <ul class="list-group">
+    <p>Welcome Here</p>
+    <div text-align:center>
+
+    <div id="abc">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8CuBLljnvuXtUY_H8RB3Sy10r3T4mD8_bEooCGx88BFW46h6gGg" class="img-responsive center-block "
+      style="max-width:400px;max-height:300px;padding-bottom:50px;"/></div>
+    </div>
+
+      <br>   <br>   <br>
+    <li class="list-group-item "><a [routerLink]="['/create']">
+      Add Movie
+    </a></li>
+    <li class="list-group-item"><a [routerLink]="['/index']" >
+      Search Movie By Category
+    </a></li>
+    <br>   <br>   <br>
+    
+  </ul>
+
+  <div class="container">
+  <router-outlet></router-outlet>
+</div>
