@@ -1,0 +1,43 @@
+<style>
+
+.demo
+{
+  background-color:slateblue;
+}
+</style>
+<div class=demo>
+<div id = "header">
+  <a href= "#">+91-9014378464</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href= "#">+91-9014378464</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href= "#">+91-9014378464</a>
+  <span class="form-group">
+      <button type="button" >REGISTER</button>
+  </span>
+
+</div>
+
+<nav class='navbar navbar-expand navbar-light bg-light' class='center-block' id = 'padding'>
+  
+  <ul class='nav nav-pills'>
+   
+  <li><a class='nav-link' class="btn btn-default active" role="button" routerLinkActive='active' [routerLink]="['/home']">Home</a></li>
+  <li><a class='nav-link'  ></a></li>
+  <li><a class='nav-link'  ></a></li>
+  <li><a class='nav-link' class="btn btn-default active" role="button" routerLinkActive='active' [routerLink]="['/login']">Login</a></li>
+  <li><a class='nav-link'  ></a></li>
+  <li><a class='nav-link'  ></a></li>
+  <li><a class='nav-link' class="btn btn-default active" role="button" routerLinkActive='active' [routerLink]="['/new-coupons']">Food Available</a></li>
+  <li><a class='nav-link'  ></a></li>
+  <li><a class='nav-link'  ></a></li>
+  <li><a class='nav-link' class="btn btn-default active" role="button" routerLinkActive='active' [routerLink]="['/register']">SignUp</a></li>
+
+  </ul>
+</nav>
+</div>
+
+
+
+<div class=container-fluid>
+  <router-outlet></router-outlet>
+</div>
+
